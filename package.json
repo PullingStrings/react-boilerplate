@@ -16,14 +16,15 @@
     "pusher-js": "^4.2.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-motion": "^0.5.2",
     "react-scripts": "1.1.4"
   },
-    "lint-staged": {
-     "src/**/*.{js,jsx,json,css}": [
-       "prettier --single-quote --write",
-       "git add"
-     ]
-   },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
   "scripts": {
     "precommit": "lint-staged",
     "build-css": "node-sass-chokidar src/ -o src/",
